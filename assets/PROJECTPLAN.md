@@ -12,7 +12,7 @@ It will be running on Django's Rest framework and Angular2 framework.
 
 ### **Tasks and Deliverables**
 
-| Task Name   | Points |
-| : ---------- :|:------:|
-| Initialize Angular2 app using CLI | 1 |
+| Task Name                             | Points     |
+|---------------------------------------|------------|
+| Initialize Angular2 app using CLI     | 1          |
 
