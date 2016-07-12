@@ -1,0 +1,17 @@
+md-card {
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  margin: 16px;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid grey;
+    border-width:thin;
+}
+
+.md-card-content p{
+    text-align: center;
+}

@@ -7,7 +7,7 @@ import {MD_LIST_DIRECTIVES} from '@angular2-material/list';
 import {MdIcon, MdIconRegistry} from '@angular2-material/icon';
 import {RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
 import { HTTP_PROVIDERS } from '@angular/http';
-import { GalleryComponent } from './gallery';
+import { HomeComponent } from './home';
 
 @Component({
   moduleId: module.id,
@@ -49,7 +49,7 @@ import { GalleryComponent } from './gallery';
   providers: [ROUTER_PROVIDERS,MdIconRegistry, HTTP_PROVIDERS],
 })
 @RouteConfig([
-  {path: '/gallery', component: GalleryComponent, useAsDefault: true}
+  {path: '/', component: HomeComponent, useAsDefault: true}
 ])
 export class AppComponent {
   title = 'Picfect';
