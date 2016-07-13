@@ -12,5 +12,13 @@ export class CategoriesComponent implements OnInit {
 
   ngOnInit() {
   }
+  categories: Object[] = [
+    {name: "Adventure", image: "adventure.png"},
+    {name: "Sport", image: "sports.png"},
+    {name: "Music", image: "music.png"},
+    {name: "Fashion", image: "fashion.png"},
+    {name: "Selfies", image: "selfies.png"},
+    {name: "Party", image: "party.png"}
+  ];
 
 }

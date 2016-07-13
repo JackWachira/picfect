@@ -1,8 +1,9 @@
 <div class="card-container">
+    <label>CATEGORIES</label>
     <md-card *ngFor="let category of categories">
-        <img md-card-image [alt]="pic.name" src="../img/beach.png">
+        <img class="img-circle" id="placeholder" md-card-image [alt]="category.name" src="../img/{{category.image}}">
         <md-card-content>
-            <p>{{pic.name}}</p>
+            <p>{{category.name}}</p>
         </md-card-content>
     </md-card>
 </div>

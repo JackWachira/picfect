@@ -22,6 +22,7 @@ html,body,.container{
     display: table-cell;
     background-color: white;
     width: 25%;
+    vertical-align: top;
     }
     .col-md-6{
     display: table-cell;

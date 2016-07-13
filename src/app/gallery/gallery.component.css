@@ -1,9 +1,11 @@
 md-card {
   width: 200px;
-  height: 200px;
+  height: 150px;
   box-sizing: border-box;
-  margin: 16px;
+  width: 50%;
+  margin: 2px auto;
 }
+
 
 .card-container {
     display: flex;
@@ -14,4 +16,12 @@ md-card {
 
 .md-card-content p{
     text-align: center;
+}
+
+.card-container label{
+    border: 1px solid grey;
+    width: 100%;
+    border-width:thin;
+    text-align: center;
+    background: #D8D8D8;
 }
