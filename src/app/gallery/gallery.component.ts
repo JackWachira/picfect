@@ -6,7 +6,7 @@ import {MD_CARD_DIRECTIVES} from '@angular2-material/card';
   selector: 'app-gallery',
   templateUrl: 'gallery.component.html',
   styleUrls: ['gallery.component.css'],
-   directives: [
+  directives: [
     MD_CARD_DIRECTIVES,
   ],
 })

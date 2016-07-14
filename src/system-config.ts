@@ -55,6 +55,7 @@ const barrels: string[] = [
   'app/gallery',
   'app/home',
   'app/categories',
+  'app/canvas',
   /** @cli-barrel */
 ];
 

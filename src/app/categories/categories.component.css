@@ -1,7 +1,6 @@
 .card-container {
     display: flex;
     flex-flow: row wrap;
-    border: 1px solid grey;
     border-width:thin;
     vertical-align: top;
     text-align: center;

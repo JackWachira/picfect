@@ -12,6 +12,7 @@ md-card {
     flex-flow: row wrap;
     border: 1px solid grey;
     border-width:thin;
+    height: 100%;
 }
 
 .md-card-content p{
