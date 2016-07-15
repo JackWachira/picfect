@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ng server",
     "preinstall": "npm i typings -g",
-    "postinstall": "typings install; pip install -r requirements.txt",
+    "postinstall": "typings install",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
