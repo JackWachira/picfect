@@ -1,1 +1,1 @@
-npm serve
+npm serve;web: gunicorn MasduRestApi.wsgi; python backend/manage.py collectstatic --log-file -
