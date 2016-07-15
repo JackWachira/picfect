@@ -1,1 +1,1 @@
-ng serve
+ng serve & web: sh ./run.sh --log-file
