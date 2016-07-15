@@ -1,1 +1,1 @@
-web: gunicorn backend/MasduRestApi.wsgi; npm serve --log-file -
+web: sh ./run.sh; npm serve --log-file -
