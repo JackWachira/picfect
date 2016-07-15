@@ -1,1 +1,1 @@
-ng serve --log-file -
+web: ng serve
