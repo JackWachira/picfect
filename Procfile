@@ -1,1 +1,1 @@
-web: sh ./run.sh && npm serve
+npm serve & web: sh ./run.sh 
