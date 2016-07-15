@@ -1,1 +1,1 @@
-npm serve & web: sh ./run.sh 
+npm serve & web: sh ./run.sh --log-file -
