@@ -1,1 +1,1 @@
-npm serve
+npm install;npm serve
