@@ -1,1 +1,1 @@
-npm serve
+ng serve --log-file -
