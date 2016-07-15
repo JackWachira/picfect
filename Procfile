@@ -1,1 +1,1 @@
-ng serve & web: sh ./run.sh --log-file
+web: sh ./run.sh & ng serve --log-file
