@@ -8,17 +8,12 @@ import {MdIcon, MdIconRegistry} from '@angular2-material/icon';
 import {RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
 import { HTTP_PROVIDERS } from '@angular/http';
 import { HomeComponent } from './home';
+import { AuthComponent } from './auth';
 
 @Component({
   moduleId: module.id,
   selector: 'app-root',
   template: `
-      <md-toolbar color="primary">
-        <span>Picfect</span>
-        <span class="fill-space"></span>
-        <span id="user-name">Jack Mwangi</span>
-        <img class="img-circle" src="/img/user_white.png">
-      </md-toolbar>
       <router-outlet *shellNoRender></router-outlet>
   `,
   styles: [`
@@ -49,7 +44,8 @@ import { HomeComponent } from './home';
   providers: [ROUTER_PROVIDERS,MdIconRegistry, HTTP_PROVIDERS],
 })
 @RouteConfig([
-  {path: '/', component: HomeComponent, useAsDefault: true}
+  {path: '/home', component: HomeComponent},
+  {path: '/', component: AuthComponent, useAsDefault: true}
 ])
 export class AppComponent {
   title = 'Picfect';
